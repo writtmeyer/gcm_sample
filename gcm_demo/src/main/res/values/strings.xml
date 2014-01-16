@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2013 Wolfram Rittmeyer
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    
+    <!-- You have to substitute your keys here -->
+    <!--
+        <string name="gcm_project_id">your_project_id</string> 
+    -->
+    <!-- gcm demo -->
+    <!-- general stuff -->
+    <string name="gcm_demo_app_name">GCM Demo</string>
+    <string name="gcm_demo_copyright">2014</string>
+
+    <!-- titles -->
+    <string name="gcm_demo_title_activity_gcm_demo">GCM Demo</string>
+    <string name="gcm_demo_title_activity_description">Description</string>
+
+    <!-- demo descriptions -->
+    <string name="gcm_demo_demo_desc">
+        <![CDATA[
+        This demo shows how to make use of Google Cloud Messaging with CCS. 
+        Press the register button to register. Once registered you can use 
+        the same button to unregister.
+        <br><br>
+        Use the \"Send message\" button to send a message to all
+        registered devices.
+        <br><br>
+        The Android client is only one part of the GCM experience. 
+        Much more interesting - especially with CCS - is the server part.
+        ]]>
+    </string>
+
+    <!-- content -->
+    <string name="btn_register">Register</string>
+    <string name="btn_unregister">Unregister</string>
+    <string name="btn_message">Send this message</string>
+    <string name="select">Select</string>
+    <string name="user_name">User name</string>
+    <string name="txt_message_hint">Your message</string>
+    <string name="txt_demo_header">GCM Demo</string>
+    <string name="no_message">No message entered</string>
+    <string name="msg_received">Message received: %1$s</string>
+    <string name="msg_sent">Message sent: %1$s</string>
+    <string name="txt_no_play_services">
+        <![CDATA[
+        Either you do not have Google Play Services or your 
+        Google Play Services package is not up to date. 
+        Please download the app from Google Play or update 
+        your existing app.
+        ]]>
+    </string>
+
+    <!-- about -->
+    <string name="gcm_demo_repo_link">https://bitbucket.org/grokkingandroid/cpsample</string>
+
+    <!-- ActionBar-Spinner -->
+    <string-array name="gcm_demo_spinner_actionbar">
+        <item>TODO Add all demos here</item>
+    </string-array>
+
+    <!-- Blog links -->
+    <string-array name="gcm_demo_link_texts">
+        <item>TODO sample link text</item>
+    </string-array>
+    <string-array name="gcm_demo_link_targets">
+        <item>http://www.grokkingandroid.com/</item>
+    </string-array>
+
+
+    <!-- common stuff for all demos -->
+    <!-- common -->
+    <string name="about">About</string>
+    <string name="search">Search</string>
+
+    <!-- menu -->
+    <string name="grokkingandroidsample_menu_description">Description</string>
+
+    <!-- Description -->
+    <string name="grokkingandroidsample_demo_description">Demo description</string>
+    <string name="grokkingandroidsample_blog_links">Blog links</string>
+
+    <!-- About Fragment -->
+    <plurals name="plural_libraries">
+        <item quantity="one">library</item>
+        <item quantity="other">libraries</item>
+    </plurals>
+
+    <string name="common_about_text">
+        <![CDATA[
+        <strong>%1$s</strong>
+        <br>
+        \u00a9 %2$s by Wolfram Rittmeyer
+        <br>
+        <a href="http://www.grokkingandroid.com">http://www.grokkingandroid.com</a>
+        <br><br>
+        You can find the code on the project page:<br>
+        <a href="%3$s">%3$s</a>
+        <br><br>
+        The code is licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0.txt">Apache License Version 2.0</a>.
+        <br><br><br>
+        <em><strong>This demo makes use of the following %4$s:</strong></em>
+        ]]>
+    </string>
+
+    <string-array name="grokkingandroidsample_about_titles">
+        <item>Support Library</item>
+        <item>ActionBarCompat</item>
+    </string-array>
+    <string-array name="grokkingandroidsample_about_contents">
+        <item>
+            <![CDATA[
+            The support library is provided by the Android Open Source Project
+            as a standard extension to Android. It helps with backwards
+            compatibility and also offers some additional stuff that is very 
+            useful but hasn\'t yet found its way into the official 
+            Android source.<br><br>
+            The support library is licensed under
+            the <a href="http://source.android.com/source/licenses.html">
+            Apache License 2.0</a>.
+            ]]>
+        </item>
+        <item>
+            <![CDATA[
+            ActionBarCompat is provided by the Android Open Source Project
+            as a means to add the ActionBar even if you are targeting
+            older devices.<br><br>
+            ActionBarCompat is licensed under
+            the <a href="http://source.android.com/source/licenses.html">
+            Apache License 2.0</a>.
+            ]]>
+        </item>
+    </string-array>
+
+</resources>
