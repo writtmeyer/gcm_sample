@@ -23,6 +23,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:+'
     compile 'com.android.support:support-v4:19.0.0'
     compile 'de.greenrobot:eventbus:2.2.0'
+    compile 'de.keyboardsurfer.android.widget:crouton:1.8.2'
 }
 
 repositories {
