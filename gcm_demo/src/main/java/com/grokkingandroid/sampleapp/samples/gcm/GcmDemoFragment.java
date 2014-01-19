@@ -76,7 +76,7 @@ public class GcmDemoFragment extends DemoBaseFragment implements
 
       mTxtRegId = (TextView)root.findViewById(R.id.txt_reg_id);
       mBtnMessage = (Button) root.findViewById(R.id.btn_send_message);
-      if (mState != State.REGISTERED && mState != State.UNREGISTERED) {
+      if (mState != State.REGISTERED) {
          mBtnMessage.setEnabled(false);
       }
       else {
